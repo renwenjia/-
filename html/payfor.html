@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>付款</title>
+		<link rel="stylesheet" type="text/css" href="../css/Common_style .css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Common_header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/payfor.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Common_footer.css"/>
+		
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/js.js"></script>
+		<script src="../js/detail_header.js"></script>
+		<script src="../js/payfor.js"></script>
+		<script src="../js/detail_footer.js"></script>		
+	</head>
+	<body>
+		<div id="header">
+			<div class="box1">
+				<div class="out w">
+					<p class="box1Left">
+						<a class="l" href="../index.html"></a>
+						<a class="l" href="javascript:;"></a>
+						<a class="l" href="javascript:;"></a>
+						<a class="l" href="javascript:;"></a>
+						<a class="l last" href="javascript:;"></a>
+					</p>
+				</div>
+			</div>
+			<div class="box2">
+				<div class="over w">
+					<p class="l">欢迎来到邦购网，全场满159元包邮</p>
+					<ul class="bigul r">
+						<li class="bigul_li1 l">
+							<a class="bigul_li1_top" href="login/login.html">
+								登录
+							</a>
+							<i class="hid"></i>
+							<ul class="bigul_li1_smallul">
+								<li>
+									<a href="javascript:;">
+										QQ账户登录
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										支付宝登录
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										微信账户登录
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="bigul_li2 l">
+							<a href="registered/registered.html">
+								注册
+							</a>
+						</li>
+						<li class="bigul_li3 l">
+							<a href="javascript:;">
+								我的邦购
+							</a>
+							<ul class="bigul_li3_smallul">
+								<li>
+									<a href="javascript:;">
+										我的订单
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										我的积分
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										我的点赞
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										收货地址
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="bigul_li4 l">
+							<a href="javascript:;">
+								会员中心
+							</a>
+						</li>
+						<li class="bigul_li5 l">
+							<img class="l" src="../img/header_box2.phone.png" alt="未加载"/>
+							<a class="l" href="javascript:;">
+								下载APP
+							</a>
+							<span class="hid"></span>
+							<span class="imgbox">
+							<img src="../img/header_box2_weixin1.png" alt="图片未加载"/>		
+							</span>
+						</li>
+						<li class="bigul_li6 l">
+							<a href="javascript:;">
+								微博
+							</a>
+						</li>
+						<li class="bigul_li7 l">
+							微信
+							<span>
+								<img src="../img/header_box2_weixin1.png" alt="图片未加载"/>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="content">
+			<div class="box1">
+				<div class="box11 w">
+					<a href="../index.html">
+						<img src="../img/registered_Logo.jpg" alt="未载入" />
+					</a>
+				</div>
+				<div class="box12 w"></div>
+			</div>
+			<div class="box2 w">
+				<ul>
+					<li class="li_top">收货地址</li>
+					<li class="li_btm li_change_li1">
+						<label><input class="l chk" type="checkbox"/><span class="l">使用新地址</span></label>
+					</li>
+					<li>
+						<table>
+							<tr>
+								<td class="lt">收货人:</td>
+								<td>
+									<input type="text" class="consignee" checked="false"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="lt">所在地区：</td>
+								<td>
+									<select class="s1"><option>--请选择--</option></select>
+									<select class="s2"><option>--请选择--</option></select>
+									<select class="s3"><option>--请选择--</option></select>
+								</td>
+							</tr>
+							<tr>
+								<td class="lt">详细地址：</td>
+								<td><input type="text" class="address"/></td>
+							</tr>
+							<tr>
+								<td class="lt">手机号码：</td>
+								<td><input type="text" class="mobile"/>&nbsp;&nbsp;或固定电话&nbsp;&nbsp;<input type="text" class="telephone"/></td>
+							</tr>
+							<tr>
+								<td class="lt">邮箱:</td>
+								<td><input type="text" class="email"/>&nbsp;&nbsp;用来接收订单提醒邮件，便于您及时了解订单状态</td>
+							</tr>
+							<tr>
+								<td class="lt">邮编:</td>
+								<td><input type="text" class="zipcode"/></td>
+							</tr>
+							<tr>
+								<td class="lt"></td>
+								<td><input type="button" class="sure" value="确定"/></td>
+							</tr>
+						</table>						
+					</li>
+				</ul>
+			</div>
+			<div class="box3 w">
+				<ul>
+					<li class="li_top">支付方式</li>
+					<li class="li_btm li_change_li1">
+						<input type="radio" checked/>&nbsp;在线支付
+					</li>
+				</ul>
+			</div>
+			<div class="box4 w">
+				<ul>
+					<li class="li_top">配送方式</li>
+					<li class="li_btm li_change_li1">
+						<input type="radio" checked/>&nbsp;快递
+					</li>
+				</ul>
+			</div>
+			<div class="box5 w">
+				<ul>
+					<li class="li_head">
+						<span class="l box5_span1">商品名称</span>
+						<span class="l box5_span2">颜色/尺码</span>
+						<span class="l box5_span3">数量</span>
+						<span class="l box5_span4">单价</span>
+						<span class="l box5_span5">小计</span>
+					</li>
+					<li class="li_top li_change_li1">
+						邦购
+					</li>
+					<li class="last">
+						运费：<span>￥0.00</span>
+					</li>
+				</ul>
+			</div>
+			<p class="invoice w">
+				<label>
+					<a class="r">
+						需要发票
+					</a>
+					<input class="r" type="checkbox" />
+				</label>
+			</p>
+			<div class="invoicebox">
+				<div class="invoicebox_top">
+					<span class="l">发票信息</span>
+					<a class="r" href="javascript:;">×</a>
+				</div>
+				<div class="invoicebox_center">
+					温馨提醒：
+					<br />
+					发票金额为现金支付金额（扣除礼品卡余额、抵用券、返利金额等）
+					<br />
+					发票信息由第三方商家提供
+					<br />
+					如果本次订购产品发生退货，请将发票一并退回。
+				</div>
+				<table class="invoicebox_bottom">
+					<tr>
+						<td class="lef">发票类型：</td>
+						<td class="rig">
+							<input class="pers" type="radio" name="per" />个人
+							<input class="pers" type="radio" name="per" checked/>公司
+						</td>
+					</tr>
+					<tr>
+						<td class="lef">发票抬头：</td>
+						<td class="rig">
+							<input type="text" class="uphead"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="lef"></td>
+						<td class="rig">
+							<input class="save" type="button" value="保存" />
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="box6 w">
+				<ul>
+					<li class="li_top">使用红包</li>
+					<li class="li_btm li_change_li1">
+						<span class="l">可用红包</span>
+						<a class="r" href="javascript:;">查看红包</a>
+					</li>
+					<li class="ex1">
+						<span class="l span1">红包金额</span>
+						<span class="l span2">使用限制</span>
+						<span class="l span3">适用范围</span>
+						<span class="l span4">有效时间</span>
+						<p class="redenvelope ">您暂无可用红包</p>
+					</li>
+					<li class="ex2">
+						<p class="top l">
+							有红包兑换码？绑定红包。
+						</p>
+						<span class="l">输入红包兑换码:</span>
+						<input type="text" class="l inp1"/>
+						<span class="l">输入验证码:</span>
+						<input class="l inp2" type="text" />
+						<img class="l" src="../img/yzm.jpg" />
+						<a class="takeit l" href="javascript:;">确认绑定</a>
+					</li>
+				</ul>
+			</div>
+			<div class="box7 w">
+				<ul>
+					<li class="li_top">使用积分</li>
+					<li class="li_btm li_change_li1">
+						<p class="box7_top">
+							<span>本次使用</span>
+							<input type="text" />
+							<span>个积分</span>
+						</p>
+						<p class="box7_btm">
+							您当前积分：<span>45</span>，本单最高可用积分<span>0</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="box8 w">
+				<ul>
+					<li class="li_top">使用邦购币</li>
+					<li class="li_btm li_change_li1">
+						<p class="box8_top">
+							<span>本次使用</span>
+							<input type="text" />
+							<span>个邦购币</span>
+							<a href="javascript:;">使用</a>
+						</p>
+						<p class="box8_btm">
+							您当前可用余额：<span>￥</span><span>0</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="last w">
+				<p class="last_p1">
+					商品金额：<span class="paymoney"></span>+运费<span class="runmoney">$0.00</span>-<span class="redmoney">红包：￥0.00</span>-<span>积分￥0.00</span>-邦购币<span class="bbmoney">￥0</span>
+				</p>
+				<p class="last_p2">
+					应付总额：
+					<br />
+					￥<span class="allpay"></span>
+				</p>
+				<p class="last_p3">
+					<a href="javascript:;">提交订单</a>
+				</p>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<ul class="footer_top w">
+				<li class="l"></li>
+				<li class="l"></li>
+				<li class="l"></li>
+				<li class="change1 l"></li>
+				<li class="change2 l"></li>
+			</ul>
+			<i class="colorpiece"></i>
+			<div class="footer_center w">
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="registered/registered.html"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+			</div>
+			<dl class="footer_bottom w">
+				<dt class="w l">
+					CopyRight © 2000-2016, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com 沪ICP备05033127号
+				</dt>
+				<dd class="btmdd first l">
+					<a href="javascript:;">
+						<img src="../img/footer_bottom_beian1.png" alt="备案信息未加载"/>
+					</a>
+				</dd>
+				<dd class="btmdd last l">
+					<a href="javascript:;">
+						<img src="../img/footer_bottom_beian2.png" alt="工商信息未加载"/>
+					</a>
+				</dd>
+			</dl>
+		</div>
+
+	</body>
+</html>

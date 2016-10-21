@@ -1,0 +1,14 @@
+{
+	"id":"shoppingList","code":"200","data":[
+		{"id":"1","name":"Demeter男女士淡香水礼盒套装 收藏家 9只装","price":"85.00","rate":"99","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img1.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*9)"]},
+		{"id":"2","name":"Demeter男女士淡香水礼盒套装 收藏家 8只装","price":"70.00","rate":"80","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img2.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*8)"]},
+		{"id":"3","name":"Demeter男女士淡香水礼盒套装 收藏家 7只装","price":"65.00","rate":"75","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img3.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*7)"]},
+		{"id":"4","name":"Demeter男女士淡香水礼盒套装 收藏家 6只装","price":"60.00","rate":"99","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img1.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*6)"]},
+		{"id":"5","name":"Demeter男女士淡香水礼盒套装 收藏家 5只装","price":"55.00","rate":"99","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img2.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*5)"]},
+		{"id":"6","name":"Demeter男女士淡香水礼盒套装 收藏家 4只装","price":"50.00","rate":"99","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img3.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*4)"]},
+		{"id":"7","name":"Demeter男女士淡香水礼盒套装 收藏家 3只装","price":"45.00","rate":"99","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img1.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*3)"]},
+		{"id":"8","name":"Demeter男女士淡香水礼盒套装 收藏家 2只装","price":"40.00","rate":"99","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img2.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*2)"]},
+		{"id":"9","name":"Demeter男女士淡香水礼盒套装 收藏家 1只装","price":"30.00","rate":"99","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img3.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*1)"]},
+		{"id":"10","name":"Demeter男女士淡香水礼盒套装 收藏家 半只装","price":"20.00","rate":"99","bianhao":"商品编号：887397","html":"detail.html","img":"../img/small_img1.jpg","color":["颜色：收藏家"],"size":["尺码：(2ml*0)"]}
+	]
+}

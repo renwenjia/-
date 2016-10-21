@@ -1,0 +1,280 @@
+/*---------------------------版心样式---------------------------*/
+
+.w
+{
+	width:980px;
+	margin:0 auto;
+}
+
+/*---------------------------整体结构---------------------------*/
+
+#head{
+	height:100px;
+}
+
+#content{
+	height:366px;
+}
+
+#bottom{
+	height:30px;
+	padding-top:20px;
+	text-align: center;
+}
+
+
+/*---------------------------head---------------------------*/
+
+.registered_head_logo
+{
+	width:220px;
+	height:95px;
+}
+
+/*---------------------------content---------------------------*/
+.registered_content_top
+{
+	width:980px;
+	height:26px;
+	border-bottom: 2px solid #6e6e6e;
+}
+
+.registered_content_top .mobile
+{
+	display: inline-block;
+	width:160px;
+	height:28px;
+	background: url(../../img/registered.jpg) no-repeat;
+	text-align: center;
+	line-height: 28px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.registered_content_top .mobile:hover
+{
+	color:#fff!important;
+}
+
+.registered_content_top .moble
+{
+	display:inline-block;
+	width:160px;
+	height:26px;
+}
+
+.registered_content_bottom
+{
+	width:978px;
+	height:324px;
+	border: 1px solid #ccc;
+	margin-top:10px;
+}
+
+.registered_content_bottom_left
+{
+	width:700px;
+	height:276px;
+	padding:20px 0 30px 15px;
+}
+
+.registered_content_bottom_left p
+{
+	margin-left: 15px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 14px;
+	height:30px;
+	line-height: 30px;
+}
+
+.registered_content_bottom_left form
+{
+	width:743px;
+	height:215px;
+	padding-top:15px;
+}
+
+.registered_content_bottom_left form div
+{
+	margin:0 auto;
+	width:700px;
+	height:60px;	
+}
+
+.registered_content_bottom_left form div.userName .userName_span_left
+{
+	width:120px;
+	padding-right: 5px;
+	height:30px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.registered_content_bottom_left form div.userName input
+{
+	width:240px;
+	height:28px;
+	padding-right:5px;
+}
+
+.registered_content_bottom_left form div.userName .userName_span_right
+{
+	width:305px;
+	padding-left:10px;
+	height:38px;
+	color: #ccc;
+}
+
+.registered_content_bottom_left form div.userName .userName_span_bottom
+{
+	margin-left:125px;
+	overflow: hidden;
+	height: 20px;
+	line-height: 20px;
+	color: #f00;
+	display:none;
+}
+
+.registered_content_bottom_left form div.mobileNumber .mobileNumber_span_left
+{
+	width:120px;
+	padding-right: 5px;
+	height:30px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.registered_content_bottom_left form div.mobileNumber input
+{
+	width:240px;
+	height:28px;
+	padding-right:5px;
+}
+
+.registered_content_bottom_left form div.mobileNumber .mobileNumber_span_right
+{
+	width:305px;
+	padding-left:10px;
+	height:38px;
+	color: #ccc;
+}
+
+.registered_content_bottom_left form div.mobileNumber .mobileNumber_span_bottom
+{
+	margin-left:125px;
+	overflow: hidden;
+	height: 20px;
+	line-height: 20px;
+	color: #f00;
+	display:none;
+}
+
+.registered_content_bottom_left form div.code .code_span_left
+{
+	width:120px;
+	padding-right: 5px;
+	height:30px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.registered_content_bottom_left form div.code input
+{
+	width:140px;
+	height:28px;
+	padding-right:5px;
+}
+
+.registered_content_bottom_left form div.code .code_span_right
+{
+	width:305px;
+	padding-left:10px;
+	height:38px;
+	color: #ccc;
+}
+
+.registered_content_bottom_left form div.code .code_span_bottom
+{
+	margin-left:125px;
+	overflow: hidden;
+	height: 20px;
+	line-height: 20px;
+	color: #f00;
+	display:none;
+}
+
+
+.registered_content_bottom_left .butn .butn_span_left
+{
+	width:120px;
+	padding-right: 5px;
+	height:30px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.registered_content_bottom_left .butn input
+{
+	cursor: pointer;
+	border: 0;
+	width:151px;
+	height:32px;
+	padding-right:5px;
+	background: url(../../img/buttons.png) no-repeat -226px -168px;
+}
+
+
+
+.registered_content_bottom_right
+{
+	width:189px;
+	height:300px;
+	padding:20px 20px 0 10px;
+	background: url(../../img/registered_right_bottom.jpg) no-repeat left 250px;
+}
+
+.registered_content_bottom_right h3
+{
+	font-size: 16px;
+	display: block;
+	height:34px;
+	text-align: center;
+	color: #d61c19;
+	background: url(../../img/registered_right_top.jpg) repeat-x left bottom;
+}
+
+.registered_content_bottom_right p
+{
+	padding-top:10px;
+	font-size: 14px;
+	line-height: 31px;
+	text-indent: 36px;
+}
+
+.userName input,.mobileNumber input,.code input
+{
+	line-height:28px;
+}
+
+/*---------------------------bottom---------------------------*/
+#bottom p a
+{
+	display: inline-block;
+	height:14px;
+	padding-right:5px;
+	margin-left:5px;
+	border-right:1px solid #ccc;
+	line-height: 14px;
+	color:#333;
+}
+
+#bottom p a:hover
+{
+	text-decoration: underline;
+}
+
+#bottom p a.last
+{
+	border: 0;
+}

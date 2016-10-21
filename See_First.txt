@@ -1,0 +1,38 @@
+1：
+	页面分为
+		index.html					首页
+		html/detail.html			详情页
+		html/shoppingcart.html		购物车页
+		html/payfor.html			支付页
+		html/login/login.html		登录页
+		html/registered/registered	注册页（注册页按顺序分为三部分）
+		
+2：	观测流程
+		index页面-详情页面-购物车（检测是否登录）
+							已登录-支付页面
+							未登录-登录页面（检测是否已注册）
+								已注册-index
+								未注册-注册页面-index
+								
+3：	因个人原因导致观测须知
+		首页跳转详情页面请点击 商铺分类右侧的 sale（dataid1）新客专享（dataid2）邦邦团（dataid3）
+		替代列表页检测
+		
+		点击登录-登录页面
+		点击注册-注册页面
+		点击购物袋-购物车页面
+		
+4：	页面效果简述
+		
+			回到顶部；
+			json数据载入；
+			2级菜单；
+			轮播图；
+			定时器，计时器；
+			放大镜；
+			点击添加，移除样式；
+			创建节点，标签；
+			楼梯；
+			正则；
+			选项卡；
+			等等；

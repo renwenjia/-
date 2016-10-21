@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/Common_style .css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Common_header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/shoppingcart.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Common_footer.css"/>
+		
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/js.js"></script>
+		<script src="../js/detail_header.js"></script>
+		<script src="../js/shoppingcart.js"></script>
+		<script src="../js/detail_footer.js"></script>		
+	</head>
+	<body>
+		<div id="header">
+			<div class="box1">
+				<div class="out w">
+					<p class="box1Left">
+						<a class="l" href="../index.html"></a>
+						<a class="l" href="javascript:;"></a>
+						<a class="l" href="javascript:;"></a>
+						<a class="l" href="javascript:;"></a>
+						<a class="l last" href="javascript:;"></a>
+					</p>
+				</div>
+			</div>
+			<div class="box2">
+				<div class="over w">
+					<p class="l">欢迎来到邦购网，全场满159元包邮</p>
+					<ul class="bigul r">
+						<li class="bigul_li1 l">
+							<a class="bigul_li1_top" href="login/login.html">
+								登录
+							</a>
+							<i class="hid"></i>
+							<ul class="bigul_li1_smallul">
+								<li>
+									<a href="javascript:;">
+										QQ账户登录
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										支付宝登录
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										微信账户登录
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="bigul_li2 l">
+							<a href="registered/registered.html">
+								注册
+							</a>
+						</li>
+						<li class="bigul_li3 l">
+							<a href="javascript:;">
+								我的邦购
+							</a>
+							<ul class="bigul_li3_smallul">
+								<li>
+									<a href="javascript:;">
+										我的订单
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										我的积分
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										我的点赞
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										收货地址
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="bigul_li4 l">
+							<a href="javascript:;">
+								会员中心
+							</a>
+						</li>
+						<li class="bigul_li5 l">
+							<img class="l" src="../img/header_box2.phone.png" alt="未加载"/>
+							<a class="l" href="javascript:;">
+								下载APP
+							</a>
+							<span class="hid"></span>
+							<span class="imgbox">
+							<img src="../img/header_box2_weixin1.png" alt="图片未加载"/>		
+							</span>
+						</li>
+						<li class="bigul_li6 l">
+							<a href="javascript:;">
+								微博
+							</a>
+						</li>
+						<li class="bigul_li7 l">
+							微信
+							<span>
+								<img src="../img/header_box2_weixin1.png" alt="图片未加载"/>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="content">
+			<div class="box1">
+				<div class="box11 w">
+					<a href="../index.html">
+						<img src="../img/registered_Logo.jpg" alt="未载入" />
+					</a>
+				</div>
+				<div class="box12 w"></div>
+			</div>
+			<p class="box13 w">
+				购物袋
+				<span class="listnum"></span>
+			</p>
+
+			<div class="box2 w">
+				<ul>
+					<li class="l box21">
+						<i class="yes">√</i><i class="no"></i>
+					</li>
+					<li class="l box22">
+						全选
+					</li>
+					<li class="l box23">
+						商品信息
+					</li>
+					<li class="l box24">
+						颜色尺码
+					</li>
+					<li class="l box25">
+						单价（元）
+					</li>
+					<li class="l box26">
+						数量
+					</li>
+					<li class="l box27">
+						小计
+					</li>
+					<li class="l box28">
+						操作
+					</li>
+				</ul>
+			</div>
+			<div class="box3">
+				<ul>
+					<li class="l box31">
+						<i class="yes">√</i><i class="no"></i>
+					</li>
+					<li class="l box32">
+						邦购
+					</li>
+					<li class="r box33">
+						满159包邮
+					</li>
+				</ul>
+			</div>
+			<div class="box4 w"></div>
+			<div class="box5 w">
+				<ul>
+					<li class="l box51">
+						<i class="yes">√</i><i class="no"></i>
+					</li>
+					<li class="l box52">
+						全选
+					</li>
+					<li class="box53">
+						删除选中的商品
+					</li>
+					<li class="box54">
+						清除失效的商品
+					</li>
+					<li class="box55">
+						已选商品<span class="box551"></span>件
+						&nbsp;&nbsp;
+						商品总价￥<span class="box552"></span>-优惠￥0
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						合计（不含运费）：<span class="box553"></span>
+					</li>
+					<li class="box56">
+							去结算
+					</li>
+			</div>
+			<div class="box6 w">
+				<p><span class="sptitl">最近浏览的商品</span></p>
+				<ul></ul>
+				<b class="lfbtn"></b>
+				<b class="rtbtn"></b>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<ul class="footer_top w">
+				<li class="l"></li>
+				<li class="l"></li>
+				<li class="l"></li>
+				<li class="change1 l"></li>
+				<li class="change2 l"></li>
+			</ul>
+			<i class="colorpiece"></i>
+			<div class="footer_center w">
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="registered/registered.html"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+			</div>
+			<dl class="footer_bottom w">
+				<dt class="w l">
+					CopyRight © 2000-2016, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com 沪ICP备05033127号
+				</dt>
+				<dd class="btmdd first l">
+					<a href="javascript:;">
+						<img src="../img/footer_bottom_beian1.png" alt="备案信息未加载"/>
+					</a>
+				</dd>
+				<dd class="btmdd last l">
+					<a href="javascript:;">
+						<img src="../img/footer_bottom_beian2.png" alt="工商信息未加载"/>
+					</a>
+				</dd>
+			</dl>
+		</div>
+
+	</body>
+</html>

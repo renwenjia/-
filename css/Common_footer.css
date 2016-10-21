@@ -1,0 +1,158 @@
+#footer
+{
+	position: relative;	
+}
+
+#footer .footer_top
+{
+	height:240px;
+	margin-top:50px;
+}
+
+#footer .footer_top li
+{
+	width:279px;
+	height:238px;
+	border:1px solid #dcdcdc;
+	border-right: 0;
+}
+
+#footer .footer_top li.change1
+{
+	width:356px;
+	height:149px;
+	border-right:1px solid #dcdcdc;
+	overflow: hidden;
+}
+
+#footer .footer_top li.change2
+{
+	width:356px;
+	height:88px;
+	
+	border-right:1px solid #dcdcdc;
+	border-top:0;
+}
+
+#footer .footer_top li.change2 a.cg
+{
+	vertical-align:middle;
+	display: inline-block;
+	width:118px;
+	height:60px;
+	border-right:1px solid #dcdcdc;
+	text-align: center;
+	color:#999;
+	font-weight: bold;
+}
+
+
+#footer .footer_top li.change2 span
+{
+	display:inline-block;
+	vertical-align:middle; 
+	width:0; 
+	height:100%;
+
+}
+
+
+#footer .footer_top li.change2 a.cg img
+{
+	display: block;
+	margin:0 auto;
+}
+
+#footer .footer_top li.change2 a.cg2
+{
+	border-right:0;
+}
+
+
+
+#footer .footer_center
+{
+	height:150px;
+	padding-top:10px;
+	margin-top:40px;
+}
+
+#footer .footer_center a
+{
+	color:#231815;
+}
+
+#footer .footer_center dl
+{
+	width:200px;
+	overflow: hidden;
+}
+
+#footer .footer_center dt
+{
+	width:56px;
+	height:19px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	font-size:14px ;
+	font-weight: bold;
+}
+
+#footer .footer_center dd
+{
+	width:200px;
+	height:16px;
+	padding-top:13px;
+}
+
+#footer .colorpiece
+{
+	width:100%;
+	height:50px;
+	position: absolute;
+	border-top: 1px solid #DCDCDC;
+	background: #f7f7f7;
+	left:0;
+	top:275px;
+	z-index: -1;
+}
+
+
+
+
+#footer .footer_bottom
+{
+	height:74px;
+	padding:20px 0 15px;
+	border-top:1px solid #999;
+	margin-top:20px;
+}
+
+
+#footer .footer_bottom dt
+{
+	height:19px;
+	font-size: 14px;
+	text-align: center;
+	color:#787878;
+	line-height: 19px;
+}
+
+#footer .footer_bottom dd
+{
+	margin-top:15px;
+}
+
+#footer .footer_bottom dd.first
+{
+	width:136px;
+	height:40px;
+	margin-left:40%;
+}
+
+#footer .footer_bottom dd.last
+{
+	width:118px;
+	height:40px;
+	margin-left:10px;
+}

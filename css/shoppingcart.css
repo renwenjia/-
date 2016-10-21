@@ -1,0 +1,614 @@
+#content div.box1
+{
+	width:100%;
+	height:95px;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+#content div.box1 div.box11
+{
+	height:60px;
+}
+
+#content div.box1 div.box12
+{
+	height:35px;
+	width:1200px;
+	background:url(../img/header_box2.png) no-repeat 808px -1571px;
+}
+
+#content p.box13
+{
+	height:42px;
+	line-height: 42px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#content p.box13 span.listnum
+{
+	color:#F8584F;
+}
+
+#content div.box2
+{
+	height:40px;
+	overflow: hidden;
+	background: #f8f7f7;
+}
+
+#content div.box2 li
+{
+	line-height: 40px;
+	height:40px;		
+}
+
+#content div.box2 li.box21
+{
+	width:18px;
+	height:18px;
+	padding:11px 10px;
+	
+}
+
+#content div.box2 li.box21 i
+{
+	width:18px;
+	height:18px;
+	border:1px solid #EFECE8;
+	display: block;
+	cursor: pointer;
+	text-align: center;
+	line-height: 18px;
+}
+
+#content div.box2 li.box21 i.yes
+{
+	background: red;
+	color: #fff;
+}
+
+#content div.box2 li.box21 i.no
+{
+	background: #fff;
+	display: none;
+}
+
+#content div.box2 li.box22
+{
+	width:88px;
+}
+
+#content div.box2 li.box23
+{
+	width:250px;
+}
+
+#content div.box2 li.box24
+{
+	width:208px;
+}
+
+#content div.box2 li.box25
+{
+	width:210px;
+}
+
+#content div.box2 li.box26
+{
+	width:177px;
+}
+
+#content div.box2 li.box27
+{
+	width:155px;
+}
+
+#content div.box2 li.box28
+{
+	width:74px;
+}
+
+#content div.box3
+{
+	width:1198px;
+	height:38px;
+	border:1px solid #ccc;
+	border-bottom:1px solid #eaeaea;
+	background: #fdf6ee;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+#content div.box3 li
+{
+	line-height: 38px;
+	height:38px;		
+}
+
+#content div.box3 li.box31
+{
+	width:18px;
+	height:18px;
+	padding:10px 9px;
+	
+}
+
+#content div.box3 li.box31 i
+{
+	width:18px;
+	height:18px;
+	border:1px solid #EFECE8;
+	display: block;
+	cursor: pointer;
+	text-align: center;
+	line-height: 18px;
+}
+
+#content div.box3 li.box31 i.yes
+{
+	background: red;
+	color: #fff;
+}
+
+#content div.box3 li.box31 i.no
+{
+	background: #fff;
+	display: none;
+}
+
+#content div.box3 li.box32
+{
+	width:24px;
+}
+
+#content div.box3 li.box33
+{
+	width:58px;
+	margin-right:40px;
+}
+
+#content div.box4
+{
+	width:1200px;
+	background: #fff;
+}
+
+#content div.box4 ul
+{
+	width:1198px;
+	height:80px;
+	padding:20px 0 19px;
+	border: 1px solid #ccc;
+	border-top: 0;
+}
+
+#content div.box4 ul li
+{
+	float: left;
+	height:80px;
+}
+
+#content div.box4 ul li.li1
+{
+	width:20px;
+	padding:0 9px;
+}
+
+#content div.box4 ul li.li1 i
+{
+	width:18px;
+	height:18px;
+	border:1px solid #EFECE8;
+	display: block;
+	cursor: pointer;
+	text-align: center;
+	line-height: 18px;
+}
+
+#content div.box4 ul li.li1 i.yes
+{
+	background: red;
+	color: #fff;
+}
+
+#content div.box4 ul li.li1 i.no
+{
+	background: #fff;
+	display: none;
+}
+
+#content div.box4 ul li.li2
+{
+	width:286px;
+}
+
+#content div.box4 ul li.li2 dl
+{
+	width:256px;
+	height:80px;
+}
+
+#content div.box4 ul li.li2 dt
+{
+	width:78px;
+	height:78px;
+	border: 1px solid #ccc;
+}
+
+#content div.box4 ul li.li2 dt img
+{
+	width:78px;
+	height:78px;
+}
+
+#content div.box4 ul li.li2 dd
+{
+	width:165px;
+	height:66px;
+	padding-left:10px;
+}
+
+#content div.box4 ul li.li2 dd p
+{
+	width:145px;
+	line-height:20px;
+}
+
+#content div.box4 ul li.li2 dd p a
+{
+	color:#666;
+}
+
+#content div.box4 ul li.li2 dd p a:hover
+{
+	text-decoration: underline;
+}
+
+#content div.box4 ul li.li2 dd p.p2
+{
+	color:#ccc;
+}
+
+#content div.box4 ul li.li3
+{
+	width:200px;
+}
+
+#content div.box4 ul li.li3 p
+{
+	padding-left:50px;
+	line-height: 28px;
+}
+
+#content div.box4 ul li.li4
+{
+	width:160px;
+	padding-right:20px;
+}
+
+#content div.box4 ul li.li4 p
+{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#content div.box4 ul li.li4 p.p5
+{
+	text-decoration: line-through;
+	color: #ccc;
+}
+
+#content div.box4 ul li.li4 div.changesale
+{
+	width:71px;
+	height:23px;
+	border: 1px solid #ccc;
+	padding-left:7px;
+	line-height: 23px;
+	position: relative;
+	margin-left:60px;
+	cursor: pointer;
+	background: url(../img/div_changesale.png) no-repeat 63px 10px;
+}
+
+#content div.box4 ul li.li4 div.changesale p.p7
+{
+	position: absolute;
+	width:170px;
+	height:30px;
+	border: 1px solid #ccc;
+	line-height: 30px;
+	background: #fff;
+	z-index: 999;
+	left:-1px;
+	top:23px;
+	text-align: left;
+	display: none;
+}
+
+#content div.box4 ul li.li4 div.changesale p.p7 input
+{
+	margin:9px 5px 0;
+}
+
+#content div.box4 ul li.li5
+{
+	width:86px;
+	height:80px;
+	padding:0 47px;
+	margin-right:10px;
+}
+
+#content div.box4 ul li.li5 span
+{
+	width:16px;
+	height:23px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+
+#content div.box4 ul li.li5 span.numdown
+{
+	border-right:0;
+}
+
+#content div.box4 ul li.li5 span.numup
+{
+	border-left:0;
+}
+
+#content div.box4 ul li.li5 input
+{
+	width:40px;
+	height:19px;
+	padding:2px 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+	
+}
+
+#content div.box4 ul li.li5 p
+{
+	width:86px;
+	height:22px;
+	padding-top:3px;
+	text-align: center;
+	line-height: 22px;
+	color:#F8584F;
+}
+
+#content div.box4 ul li.li6
+{
+	width:180px;
+	height:76px;
+	text-align: center;
+	color: #F8584F;
+	padding-top:4px;
+}
+
+#content div.box4 ul li.li7
+{
+	width:76px;
+	height:80px;
+	padding-right:22px;
+	text-align: right;
+	line-height: 22px;
+}
+
+#content div.box4 ul li.li7 a
+{
+	color: #000;
+}
+
+#content div.box4 ul li.li7 a:hover
+{
+	text-decoration: underline;
+	color: #ccc;
+}
+
+#content div.box5
+{
+	height:60px;
+	margin-top: 30px;
+	background: #f7f7f7;
+}
+
+#content div.box5 a
+{
+	color:#000;
+}
+
+#content div.box5 ul li
+{
+	float: left;
+	height:60px;
+	font-size: 14px;
+	line-height: 60px;
+	color:#000;
+}
+
+#content div.box5 ul li.box51
+{
+	width:20px;
+	height: 40px;
+	padding:20px 9px 0;
+}
+
+#content div.box5 ul li.box51 i
+{
+	width:18px;
+	height:18px;
+	border:1px solid #EFECE8;
+	display: block;
+	cursor: pointer;
+	text-align: center;
+	line-height: 18px;
+}
+
+#content div.box5 ul li.box51 i.yes
+{
+	background: red;
+	color: #fff;
+}
+
+#content div.box5 ul li.box51 i.no
+{
+	background: #fff;
+	display: none;
+}
+
+#content div.box5 ul li.box52
+{
+	width:28px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+
+#content div.box5 ul li.box53
+{
+	width:110px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#content div.box5 ul li.box54
+{
+	width:110px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+#content div.box5 ul li.box55
+{
+	
+	margin-left: 260px;
+	width:450px;
+}
+
+#content div.box5 ul li.box56
+{
+	width:145px;
+	font-size: 26px;
+	color: #fff;
+	background: #f00;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 15px;
+}
+
+#content div.box6
+{
+	height:350px;
+	position: relative;
+	overflow: hidden;
+}
+
+#content div.box6 p
+{
+	width:1200px;
+	height:40px;
+	border-bottom: 1px solid #ccc;
+}
+
+#content div.box6 p span.sptitl
+{
+	float: left;
+	width:100px;
+	height:18px;
+	padding:11px 30px;
+	border-bottom: 1px solid #000;
+}
+
+#content div.box6 ul
+{
+	height:300px;
+	margin-top:15px;
+	width:2300px;
+}
+
+#content div.box6 ul li
+{
+	float: left;
+	width:228px;
+	height:300px;
+}
+
+#content div.box6 b
+{
+	display: inline-block;
+	width:90px;
+	height:218px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+}
+
+#content div.box6 b.lfbtn
+{
+	background: url(../img/btn.png) no-repeat;
+	left:0;
+	top:75px;
+}
+
+#content div.box6 b.rtbtn
+{
+	background: url(../img/btn.png) no-repeat -85px 0;
+	left:1100px;
+	top:75px;
+}
+
+#content div.box6 ul li dt
+{
+	width:228px;
+	height:228px;
+}
+
+#content div.box6 ul li dt img
+{
+	width:228px;
+	height:228px;
+}
+
+#content div.box6 ul li dd
+{
+	width:228px;
+	height:72px;
+}
+
+#content div.box6 ul li dd p.ptop
+{
+	width:228px;
+	height:18px;
+	padding-top:5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border: 0;
+	margin-bottom: 5px;
+}
+
+#content div.box6 ul li dd p.pbtm
+{
+	width:228px;
+	height:49px;
+	border: 0;
+}
+
+#content div.box6 ul li dd p.pbtm span.sprit
+{
+	text-decoration: line-through;
+	margin-left:5px;
+}
+
+#content div.box6 ul li dd p.pbtm a
+{
+	border: 1px solid #ccc;
+	width:60px;
+	height:18px;
+	padding:3px 7px;
+	border-radius: 5px;
+	color: #000;
+}

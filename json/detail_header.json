@@ -1,0 +1,9 @@
+{
+	"id":"box1","code":"200","data1":[
+		{"img":"<img src='../img/header_box1_1.png' alt='未加载' />"},
+		{"img":"<img src='../img/header_box1_2.png' alt='未加载' />"},
+		{"img":"<img src='../img/header_box1_3.png' alt='未加载' />"},
+		{"img":"<img src='../img/header_box1_4.png' alt='未加载' />"},
+		{"img":"<img src='../img/header_box1_5.png' alt='未加载' />"}
+	]
+}

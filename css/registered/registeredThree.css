@@ -1,0 +1,171 @@
+/*---------------------------版心样式---------------------------*/
+
+.w
+{
+	width:980px;
+	margin:0 auto;
+}
+
+/*---------------------------整体结构---------------------------*/
+
+#head{
+	height:100px;
+}
+
+#content{
+	height:450px;
+	margin-top:10px;
+}
+
+#bottom{
+	height:30px;
+	padding-top:20px;
+	text-align: center;
+}
+
+
+/*---------------------------head---------------------------*/
+
+.registered_head_logo
+{
+	width:220px;
+	height:100px;
+}
+
+/*---------------------------content---------------------------*/
+.registered_content_bottom
+{
+	width:978px;
+	height:496px;
+	border: 1px solid #ccc;
+	margin-top:10px;
+}
+
+.registered_content_bottom_left
+{
+	width:743px;
+	height:371px;
+	padding:20px 0 60px 15px;
+}
+
+.registered_content_bottom_left .lp
+{
+	width:700px;
+	margin-left: 15px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 14px;
+	height:30px;
+	line-height: 30px;
+}
+
+.registered_content_bottom_left_box
+{
+	width:540px;
+	height:290px;
+	padding-left:60px;
+	margin:50px auto;
+}
+
+.sp1
+{
+	display: inline-block;
+	width:175px;
+	height:50px;
+	line-height: 50px;
+	text-align: left;
+	color: #f60;
+	font-size: 14px;
+}
+
+.username
+{
+	color: #f60;
+}
+
+.showUser
+{
+	width:540px;
+	height:30px;
+	line-height:30px;
+}
+
+.go
+{
+	width:150px;
+	height:30px;
+	margin-top:20px;
+	color: #f60;
+}
+
+.run:hover
+{
+	text-decoration: underline;
+}
+
+.sp2
+{
+	display: inline-block;
+	width:557px;
+	height:30px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.check
+{
+	width:540px;
+	height:75px;
+	padding-top:40px;
+}
+
+.check .box1
+{
+	width:540px;
+	height:26px;
+	font-weight: bold;
+	line-height: 26px;
+}
+
+.check .box2
+{
+	width:540px;
+	height:20px;
+	line-height: 20px;
+}
+
+.check a
+{
+	display: inline-block;
+	font-size:13px ;
+	width:125px;
+	height:30px;
+	line-height: 30px;
+	margin-right:20px;
+	text-align: right;
+	color: #f60;
+}
+
+.registered_content_bottom_right
+{
+	width:189px;
+	height:300px;
+	padding:20px 20px 0 10px;
+	background: url(../../img/registered_right_bottom.jpg) no-repeat left 250px;
+}
+
+.registered_content_bottom_right h3
+{
+	font-size: 16px;
+	display: block;
+	height:34px;
+	text-align: center;
+	color: #d61c19;
+	background: url(../../img/registered_right_top.jpg) repeat-x left bottom;
+}
+
+.registered_content_bottom_right p
+{
+	padding-top:10px;
+	font-size: 14px;
+	line-height: 31px;
+	text-indent: 36px;
+}

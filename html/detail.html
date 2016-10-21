@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		<link rel="stylesheet" type="text/css" href="../css/Common_style .css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Common_header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/detail_content.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Common_footer.css"/>
+
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/js.js"></script>
+		<script src="../js/detail_header.js"></script>
+		<script src="../js/detail.js"></script>
+		<script src="../js/detail_footer.js"></script>
+
+	</head>
+	<body>
+		<div class="jumptop">
+			<p class="jump"></p>
+			<p class="crse"></p>
+		</div>
+		<!--邦购公用header-->
+		<div id="header">
+			<div class="box1">
+				<div class="out w">
+					<p class="box1Left">
+						<a class="l" href="../index.html"></a>
+						<a class="l" href="javascript:;"></a>
+						<a class="l" href="javascript:;"></a>
+						<a class="l" href="javascript:;"></a>
+						<a class="l last" href="javascript:;"></a>
+					</p>
+				</div>
+			</div>
+			<div class="box2">
+				<div class="over w">
+					
+					<p class="l">欢迎来到邦购网，全场满159元包邮</p>
+					<ul class="bigul r">
+						<li class="bigul_li1 l">
+							<a class="bigul_li1_top" href="login/login.html">
+								登录
+							</a>
+							<i class="hid"></i>
+							<ul class="bigul_li1_smallul">
+								<li>
+									<a href="javascript:;">
+										QQ账户登录
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										支付宝登录
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										微信账户登录
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="bigul_li2 l">
+							<a href="registered/registered.html">
+								注册
+							</a>
+						</li>
+						<li class="bigul_li3 l">
+							<a href="javascript:;">
+								我的邦购
+							</a>
+							<ul class="bigul_li3_smallul">
+								<li>
+									<a href="javascript:;">
+										我的订单
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										我的积分
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										我的点赞
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										收货地址
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="bigul_li4 l">
+							<a href="javascript:;">
+								会员中心
+							</a>
+						</li>
+						<li class="bigul_li5 l">
+							<img class="l" src="../img/header_box2.phone.png" alt="未加载"/>
+							<a class="l" href="javascript:;">
+								下载APP
+							</a>
+							<span class="hid"></span>
+							<span class="imgbox">
+							<img src="../img/header_box2_weixin1.png" alt="图片未加载"/>		
+							</span>
+						</li>
+						<li class="bigul_li6 l">
+							<a href="javascript:;">
+								微博
+							</a>
+						</li>
+						<li class="bigul_li7 l">
+							微信
+							<span>
+								<img src="../img/header_box2_weixin1.png" alt="图片未加载"/>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="box3 w">
+				<div class="left l">
+					<a href="../index.html">
+						<img src="../img/logo.png" alt="未加载"/>
+					</a>
+				</div>
+				
+				<div class="center l">
+					<input class="l" type="text" placeholder="品牌钜献 优惠只享24h"/>
+					<a class="search l" href="javascript:;"></a>
+					<p class="l">
+						<a class="l" href="javascript:;">
+							秋上新
+						</a>
+						<a class="l" href="javascript:;">
+							衬衫
+						</a>
+						<a class="l hot" href="javascript:;">
+							牛仔长裤
+						</a>
+						<a class="l" href="javascript:;">
+							米宿
+						</a>
+						<a class="l hot" href="javascript:;">
+							鬼冢虎
+						</a>
+						<a class="last l" href="javascript:;">
+							39元T
+						</a>
+					</p>
+				</div>
+				<div class="right r"></div>
+			</div>
+			<div class="box4">
+				<ul class="w">
+					<li class="l first">
+						<a href="javascript:;">
+							商铺分类
+						</a>
+					</li>
+					<li class="l center">
+						<a href="../index.html">
+							首页
+						</a>
+					</li>
+					<li class="l center">
+						<a href="javascript:;">
+							<img src="../img/header_box4_center1.gif" alt="未加载"/>
+						</a>
+					</li>
+					<li class="l center">
+						<a href="javascript:;">
+							热门品牌
+						</a>
+					</li>
+					<li class="l center">
+						<a href="javascript:;">
+							邦邦团
+						</a>
+					</li>
+					<li class="l center">
+						<a href="javascript:;">
+							<img src="../img/header_box4_center2.gif" alt="未加载"/>
+						</a>
+					</li>
+					<li class="l center">
+						<a href="javascript:;">
+							SALE
+						</a>
+					</li>
+					<li class="r last">
+						<a href="javascript:;">
+							<img src="../img/header_box4_center3.gif" alt="未加载"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="content">
+			<div class="content_top w">
+				<p class="l">
+					<a href="../index.html">所有商品</a>&gt;
+					<a href="javascript:;">男装</a>&gt;
+					<a href="javascript:;">裤装</a>&gt;
+					<a href="javascript:;">牛仔长裤</a>
+				</p>
+				<div class="content_top_l l">
+					<div class="small_img">
+						<span class="glass"></span>
+					</div>
+					<div class="big_img">
+						<img class="bImg" src="../img/big_img1.jpg" alt="未加载"/>
+					</div>
+					<ul>
+						<li class="add"><a href="javascript:;"><img src="../img/small_small_img1.jpg" alt="未加载"/></a></li>
+						<li><a href="javascript:;"><img src="../img/small_small_img2.jpg" alt="未加载"/></a></li>
+						<li><a href="javascript:;"><img src="../img/small_small_img3.jpg" alt="未加载"/></a></li>
+						<li><a href="javascript:;"><img src="../img/small_small_img4.jpg" alt="未加载"/></a></li>
+					</ul>
+				</div>
+				<div class="content_top_r l">
+					<ul class="content_top_r_ul">
+						<li class="content_top_r_ul_li1">
+							<a href="javascript:;">
+								SCENT LIBRARY气味图书馆
+							</a>
+							Demeter男女士淡香水礼盒套装 收藏家 9只装
+						</li>
+						<li class="content_top_r_ul_li2">
+							<span class="price l">
+								售价：
+							</span>
+							<b class="money l">
+								￥ 85
+							</b>
+							<span class="eprice l">
+								吊牌价： <i>￥ 99</i>
+							</span>
+							<span class="discount r">
+								8.6折
+							</span>
+						</li>
+						<li class="content_top_r_ul_li3">
+							<span class="l">
+								本品不参加vip，svip折扣
+							</span>
+							<dl class="rule r">
+								<dt>
+									<a href="javascript">
+										会员规则
+									</a>
+								</dt>
+								<dd>
+									在有效期1年内：
+									<br />
+									累计购物满1000元则升级为VIP；未满1000元则降为普通会员。
+									<br />
+									在有效期1年内：
+									<br />
+									累计购物满2000元则升级为SVIP；如累计购物1000~1999元，则降为VIP；如累计购物未满1000元则降为普通会员。
+								</dd>
+							</dl>
+						</li>
+						<li class="content_top_r_ul_li4">
+							<span class="l">
+								促销
+							</span>
+							<a href="javascript:;" class="l">
+								· 满699加139赠拉杆箱
+							</a>
+						</li>
+						<li class="content_top_r_ul_li5">
+							颜 色：收藏家
+						</li>
+						<li class="content_top_r_ul_li6">
+							<a class="sty l" href="javascript:;">
+								<img src="../img/detail_sty_1.jpg" alt="未加载" />
+							</a>
+						</li>
+						<li class="content_top_r_ul_li7">
+							尺 码：2ml*9
+						</li>
+						<li class="content_top_r_ul_li8">
+							<a class="sty l" href="javascript:;">
+								2ml*9
+							</a>
+						</li>
+						<li class="content_top_r_ul_li9">
+							<span class="num l">购买数量:</span>
+							<i class="reduce l">-</i>
+							<input class="l" type="text" value="1"/>
+							<i class="increase l">+</i>
+							<span class="remain l">库存剩余数量3</span>
+							<b class="tips l">库存紧张</b>
+						</li>
+						<li class="content_top_r_ul_li10">
+							对不起，数量至少为1件。
+						</li>
+						<li class="content_top_r_ul_li11">
+							<input dataid="" type="button" class="put" value="加入购物车" />
+						</li>
+						<li class="content_top_r_ul_li12">
+							<span class="l">
+								浏览更多:
+							</span>
+							<a class="l" href="javascript:;">
+								香水
+							</a>
+						</li>
+						<li class="content_top_r_ul_li13">
+							<span class="first l">温馨提示：</span>
+							<span class="second l">·此商品不可使用邦购红包</span>
+							<span class="second r">·此商品不可使用积分</span>
+						</li>
+					</ul>
+				</div>
+				<div class="alt">
+					<p><span>提示</span><i title="关闭" class="close closer">×</i></p>
+					<div class="sucs">加入购物袋成功</div>
+					<div class="gotake">
+						<input class="l left" type="button" value="去结算" />
+						<input class="r right closer" type="button" value="继续购物" />
+					</div>
+				</div>
+			</div>
+			<div class="content_center w">
+				<div class="content_center_top">
+					<span class="l lef">商品编号：887397</span>
+					<div class="l content_center_top_sec">
+						<a class="l share" href="javascript:;">分享</a>
+						<ul>
+							<li class="firs">
+								分享到
+							</li>
+							<li>
+								<a class="l" href="javascript:;">
+									<img class="one" src="../img/detail_center_3.jpg" alt="未加载" />
+								</a>
+								<span class="l">QQ空间</span>
+								<a class="l" href="javascript:;">
+									<img class="two" src="../img/detail_center_3.jpg" alt="未加载" />
+								</a>
+								<span class="l">新浪微博</span>
+							</li>
+							<li>
+								<a class="l" href="javascript:;">
+									<img class="three" src="../img/detail_center_3.jpg" alt="未加载" />
+								</a>
+								<span class="l">腾讯微博</span>
+								<a class="l" href="javascript:;">
+									<img class="four" src="../img/detail_center_3.jpg" alt="未加载" />
+								</a>
+								<span class="l">人人网</span>
+							</li>
+							<li>
+								<a class="l" href="javascript:;">
+									<img class="five" src="../img/detail_center_3.jpg" alt="未加载" />
+								</a>
+								<span class="l">微信</span>
+								<a class="l" href="javascript:;">
+									<img class="six" src="../img/detail_center_3.jpg" alt="未加载" />
+								</a>
+								<span class="l">更多</span>
+							</li>
+						</ul>
+					</div>
+					<a class="l collection" href="javascript:;">点赞</a>
+				</div>
+			</div>
+			<div class="content_bottom w">
+				<div class="btmleft l">
+					<p class="hsytit">
+						最近浏览的商品
+					</p>
+					<div class="history"></div>
+				</div>
+				<div class="btmright l">
+					<ul class="btmright_first">
+						<li class="goodsdetail l">
+							<span>
+								商品详情
+							</span>
+						</li>
+						<li class="goodsproduct l">
+							<span>
+								商品评价（0）
+							</span>
+						</li>
+						<li class="goodspoint l">
+							<span>
+								购买须知
+							</span>
+						</li>
+					</ul>
+					<ul class="btmright_second">
+						<li class="thname l">
+							<dl>
+								<dt>
+									<img src="../img/thname.jpg" alt="未加载"/>
+								</dt>
+								<dd class="one">
+									SCENT LIBRARY气味图书馆 Demeter男女士淡香水礼盒套装 收藏家 9只装
+								</dd>
+								<dd class="second">
+									￥ 85
+								</dd>
+							</dl>
+						</li>
+						<li class="goodsdetail l">
+							<span>
+								商品详情
+							</span>
+						</li>
+						<li class="goodsproduct l">
+							<span>
+								商品评价（0）
+							</span>
+						</li>
+						<li class="goodspoint l">
+							<span>
+								购买须知
+							</span>
+						</li>
+						<li class="returntop l">
+							选择商品信息
+						</li>
+					</ul>
+					<div class="btmright_point">
+						<img src="../img/btmright_point_1.jpg" alt="未加载" />
+						<img src="../img/btmright_point_2.jpg" alt="未加载" />
+						<a href="javascript:;">
+							<img src="../img/btmright_point_3.jpg" alt="未加载" />
+						</a>
+						<a href="javascript:;">
+							<img src="../img/btmright_point_4.jpg" alt="未加载" />
+						</a>
+						<ul class="btmright_point_ul_first">
+							<li>
+								<img src="../img/btmright_point_5.jpg" alt="未加载" />
+							</li>
+							<li class="chge1">
+								<span>
+									<b>品牌</b>：SCENT LIBRARY气味图书馆
+								</span>
+								<span>
+									<b>款名</b>：Demeter男女士淡香水礼盒套装
+								</span>
+								<span>
+									<b>款号</b>：887397
+								</span>
+								<span>
+									<b>分类</b>： SCENT LIBRARY气味图书馆 > ..........
+								</span>
+								<span>
+									<b>吊牌价</b>：99.00
+								</span>
+								<span>
+									<b>季节</b>：常年
+								</span>
+							</li>
+
+							<li>
+								<img src="../img/btmright_point_6.jpg" alt="未加载" />
+							</li>
+							<li>
+								气味图书馆打破香水为奢侈消费的概念，以平价的方式切入香水市场。不会埋没你的个性，它不只令你香气怡人，更为你找回真我，带你远离每天的烦恼，寻找梦里那似曾相识的记忆，熟悉的香味，唤醒你沉睡的眷恋，寻回你遗忘已久的回忆。
+							</li>
+							<li>
+								<img src="../img/btmright_point_7.jpg" alt="未加载" />
+							</li>
+							<li class="chge2">
+								<img src="../img/btmright_point_8.jpg" alt="未加载" />
+								<img src="../img/btmright_point_9.jpg" alt="未加载" />
+								<img src="../img/btmright_point_10.jpg" alt="未加载" />
+								<img src="../img/btmright_point_11.jpg" alt="未加载" />
+								<img src="../img/btmright_point_12.jpg" alt="未加载" />
+								<span>
+									收藏家
+								</span>
+							</li>
+							<li class="chge3">
+								<img src="../img/btmright_point_13.jpg" alt="未加载" />
+							</li>
+						</ul>
+						
+						<div class="talkabout">
+							<p class="tkat_1">
+								顾客评论
+							</p>
+							<div class="tkat_2">
+								<span class="first">
+									商品满意度 <i>5</i>分 共 <i>0</i> 人评分
+								</span>
+								<span class="second">
+									商品满意度
+									<i></i>
+								</span>
+								<span class="last">
+									<b>该宝贝怎么样？</b>
+									<br />
+									发表评价最高可获得 <i>15</i> 积分
+								</span>
+							</div>
+							<div class="tkat_3">
+								<span>
+									0.00% 的用户认为实际尺码[偏小]
+								</span>
+								<span>
+									100% 的用户认为实际尺码[合适]
+								</span>
+								<span class="last">
+									0.00% 的用户认为实际尺码[偏大]
+								</span>
+							</div>
+							<p class="tkat_4">
+								全部评论（0）条
+							</p>
+						</div>
+						
+						
+						<div class="allrules">
+							<h5>
+								尺码误差
+							</h5>
+							
+							<p>
+								由于尺寸是我们手工测量，可能存在1-2厘米的误差，如果不能接受误差的朋友请勿拍。
+							</p>
+							
+							<h5>
+								色差问题
+							</h5>
+							
+							<p>
+								网络购物色差难以避免，我们尽量做到最小色差，完全不能接受色差的朋友请谨慎购买，以免收到货后发生纠纷。
+							</p>
+							
+							<h5>
+								运货方式
+							</h5>
+							
+							<p>
+								江浙沪快递方式费用6元，并支持货到付款，费用10元，除江浙沪外全国其他地区普通快递10元，EMS15元起，港澳台及海外地区35元起，系统将根据邮编自动匹配快递。
+							</p>
+							
+							<h5>
+								收货提醒
+							</h5>
+							
+							<p>
+								请务必在签收快递的时候确认商品完好无损后在签收，如发现缺货、少货可拒绝签单并联系邦购客服。
+							</p>
+							
+							<h5>
+								发货方式
+							</h5>
+							
+							<p>
+								全年无休，假日能发货，晚间会根据订单及快递规律做相应机动延迟。
+							</p>
+							
+							<h5>
+								发票问题
+							</h5>
+							
+							<p>
+								如需开具发票，请提交订单时选择需要发票，否则视为不需要。
+							</p>
+							
+							<h5>
+								付款减库存
+							</h5>
+							
+							<p>
+								邦购网库存机制为付款后减库存，购买成功以买家付款到邦购网时间为准，拍下不付款的商品无法保留其购买权利。
+							</p>
+							
+							<h5>
+								退换货问题
+							</h5>
+							
+							<p>
+								如果您的订单需要办理退换货，请您务必先通过电话或在线客服的方式与邦购客服中心联系。客服人员会帮您登记退换货单。内衣、内裤以及袜子此类贴身产品一经购买如无质量问题不予以退换。
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<ul class="footer_top w">
+				<li class="l"></li>
+				<li class="l"></li>
+				<li class="l"></li>
+				<li class="change1 l"></li>
+				<li class="change2 l"></li>
+			</ul>
+			<i class="colorpiece"></i>
+			<div class="footer_center w">
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="registered/registered.html"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+				<dl class="l">
+					<dt></dt>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+					<dd><a href="javascript:;"></a href="javascript:;"></dd>
+				</dl>
+			</div>
+			<dl class="footer_bottom w">
+				<dt class="w l">
+					CopyRight © 2000-2016, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com 沪ICP备05033127号
+				</dt>
+				<dd class="btmdd first l">
+					<a href="javascript:;">
+						<img src="../img/footer_bottom_beian1.png" alt="备案信息未加载"/>
+					</a>
+				</dd>
+				<dd class="btmdd last l">
+					<a href="javascript:;">
+						<img src="../img/footer_bottom_beian2.png" alt="工商信息未加载"/>
+					</a>
+				</dd>
+			</dl>
+		</div>
+
+	</body>
+</html>

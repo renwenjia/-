@@ -1,0 +1,57 @@
+/*---------------------------默认间距-------------------------------*/
+
+body, div, span, small, p, em, th, td, dl, dt, dd, ul, ol, li, h1, h2, 
+h3, h4, h5, h6, form, textarea,input
+{
+	margin:0;
+	padding:0;
+}
+/*---------------------------默认字体-------------------------------*/
+body,html
+{
+	height:100%;
+	min-height: 100%;
+	width:100%;
+	min-width: 100%;
+	font:12px/1.5em "微软雅黑", "宋体", verdana, "Helvetica Neue", Helvetica, sans-serif;
+	color:#333;
+}
+
+
+/*---------------------------默认li样式-------------------------------*/
+ul
+{
+	list-style: none!important;
+}
+
+
+/*---------------------------默认link样式-------------------------------*/
+a
+{
+	text-decoration: none;!important
+	cursor: pointer;!important
+}
+a:hover
+{
+	color:#666!important;
+}
+
+/*--------------------------------浮动-------------------------------*/
+.l
+{
+	float: left;
+}
+.r
+{
+	float: right;
+}
+i
+{
+	font-style: normal;
+}
+
+img
+{
+	border:0;
+	
+}

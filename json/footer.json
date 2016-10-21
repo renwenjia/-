@@ -1,0 +1,33 @@
+{
+
+	"id":"footer_center","code":"200","data1":[
+		{"dt":"新手指南","dd":"注册新用户 "},
+		{"dt":"购物指南","dd":"用户协议 "},
+		{"dt":"配送方式","dd":"找回密码"},
+		{"dt":"支付方式","dd":"红包使用说明"},
+		{"dt":"售后服务","dd":"购物流程"},
+		{"dt":"联系方式","dd":"订单状态"},
+		{"dd":"邦购币绑定与使用"},
+		{"dd":"配送范围"},
+		{"dd":"订单拆分"},
+		{"dd":"商品验货与签收 "},
+		{"dd":"发票制度"},
+		{"dd":"支付方式"},
+		{"dd":"退换货政策"},
+		{"dd":"退换办理流程"},
+		{"dd":"退款说明"},
+		{"dd":"客服：400 821 9988"},
+		{"dd":"监督：021-38119999-6038"},
+		{"dd":"在线客服"},
+		{"dd":"用户调研"}
+	],
+
+	"id":"footer_top","code":"200","data2":[
+		{"li":"<a href='javascript:;'><img class='topimg' src='img/footer_top1.png' alt='未加载'/></a>"},
+		{"li":"<a href='javascript:;'><img class='topimg' src='img/footer_top2.png' alt='未加载'/></a>"},
+		{"li":"<a href='javascript:;'><img class='topimg' src='img/footer_top3.png' alt='未加载'/></a>"},
+		{"li":"<a href='javascript:;'><img class='topimg' src='img/footer_top4.jpg' alt='未加载'/></a>"},
+		{"li":"<span></span><a class='cg topimg' href='javascript:;'><img src='img/footer_top5.png' alt='未加载'/>在线客服</a><a class='cg topimg' href='javascript:;'><img src='img/footer_top6.png' alt='未加载'/>意见反馈</a><a class='cg cg2 topimg' href='javascript:;'><img src='img/footer_top7.png' alt='未加载'/>问卷调查</a>"}
+	]
+}
+          
